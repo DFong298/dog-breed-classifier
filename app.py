@@ -41,5 +41,6 @@ if submit:
         predictions = model.predict(img_array)
 
         # Display the predicted dog breed
-        st.title(f"The dog breed is most likely a {CLASS_NAMES[int(np.argmax(predictions, axis=1))].replace('_', ' ')}.")
+        prediction = CLASS_NAMES[int(np.argmax(predictions, axis=1))].replace('_', ' ')
+        st.title(f"The dog breed is most likely a {prediction}.")
         st.image(dog_image)
