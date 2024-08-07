@@ -4,6 +4,8 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 
+# Page set-up
+st.set_page_config(page_title = "Dog Classifer", page_icon="./skog-icon.ico")
 
 # Defining class names
 CLASS_NAMES = []
