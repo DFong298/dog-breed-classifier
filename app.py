@@ -41,7 +41,7 @@ if submit:
         predictions = model.predict(img_array)
 
         # Display the predicted dog breed
-        probability = float(np.argmax(predictions, axis=1))
+        probability = 100*float((np.max(predictions, axis=1)))
         prediction = CLASS_NAMES[int(np.argmax(predictions, axis=1))].replace('_', ' ')
 
         # Output
