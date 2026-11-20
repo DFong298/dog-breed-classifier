@@ -5,6 +5,7 @@ Currently supports 120 different breeds, more to be added soon.
 
 App here: https://dennis-dog-classifier.streamlit.app/
 
+Note: The app may be down due to inactivity (Streamlits constraints). Feel free to wake it up yourself!
 
 TO RUN NOTEBOOK ON COLAB: 
 
